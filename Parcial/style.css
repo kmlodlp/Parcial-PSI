@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    margin-left: 8px;
+    padding: 0px;
+    /* background: linear-gradient(180deg,rgb(124, 205, 231),white); */
+    background-color: #1C3940;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-image: url("https://images.freejpg.com.ar/900/1504/soccer-stadium-night-autobahn-highway-lights-red-F100021565.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 48%;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+h1,h3,h4 {
+    margin: 0px;
+    z-index: 1;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+    font-size: 6rem;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-size: 2.7rem;
+}
+
+h5 {
+    margin: 12px auto;
+    font-size: 2rem;
+}
+
+h2 {
+    margin-top: 17px;
+    margin: 0px;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.7rem;
+}
+
+main {
+    background: linear-gradient(#2493BF, #A7DDF2);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.7rem;
+}
+
+.Enlace1 {
+    margin-bottom: 18px;
+}
+
+img {
+    margin-top: 5%;
+    margin-bottom: 14px;
+}
+
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 14px auto;
+    flex-direction: column;
+}
+
+.img-col {
+    margin-bottom: 10px;
+}
+
+.img-galeria{
+    border-radius: 20px;
+    margin: auto 6px;
+    width: 270px;
+    height: 200px;
+}
+
+footer {
+    background-color: #1C3940;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Enlace {
+    display: flex;
+    margin-top: 12px;
+}
